@@ -140,6 +140,97 @@ writeWav(
 	}),
 );
 
+// ---- Episode 01 sounds ----
+
+const highpass = (samples, cutoff) => {
+	const low = lowpass(samples, () => cutoff);
+	return samples.map((x, i) => x - low[i]);
+};
+
+// Paper swoosh: bright, short noise swell (invoice sliding).
+writeWav(
+	'swoosh.wav',
+	highpass(render(0.4, () => noise()), 1800).map((s, i) => {
+		const t = i / SAMPLE_RATE;
+		return s * Math.pow(Math.sin(Math.PI * Math.min(1, t / 0.4)), 1.5);
+	}),
+);
+
+// Barrier "clack": two hard, woody hits.
+writeWav(
+	'clack.wav',
+	render(0.3, (t) => {
+		const hit = (t0, gain) => {
+			const d = t - t0;
+			if (d < 0) return 0;
+			return gain * Math.exp(-d * 60) * (0.6 * noise() + Math.sin(2 * Math.PI * 420 * d) + 0.5 * Math.sin(2 * Math.PI * 1150 * d));
+		};
+		return hit(0, 1) + hit(0.075, 0.7);
+	}),
+);
+
+// Envelope opening: crinkly paper rustle.
+writeWav(
+	'paper.wav',
+	highpass(
+		render(0.55, (t) => {
+			const grain = Math.sin(t * 173) * Math.sin(t * 61) > 0.2 ? 1 : 0.25;
+			return noise() * grain * Math.sin(Math.PI * Math.min(1, t / 0.55));
+		}),
+		2500,
+	),
+);
+
+// Stamp "thunk": low, heavy hit (reserved for settlement).
+writeWav(
+	'thunk.wav',
+	(() => {
+		const body = sweep(0.35, (t) => 55 + 90 * Math.exp(-t * 25), (t) => Math.min(1, t * 800) * Math.exp(-t * 11), [
+			[1, 1],
+			[2, 0.25],
+		]);
+		const click = lowpass(render(0.35, (t) => (t < 0.012 ? noise() : 0)), () => 900);
+		return body.map((s, i) => s + 1.5 * click[i]);
+	})(),
+);
+
+// Soft ding.
+writeWav(
+	'ding.wav',
+	render(1.3, (t) => {
+		const env = Math.min(1, t * 300) * Math.exp(-t * 3.2);
+		return env * (Math.sin(2 * Math.PI * 1320 * t) + 0.35 * Math.sin(2 * Math.PI * 1320 * 2.76 * t) * Math.exp(-t * 6) + 0.15 * Math.sin(2 * Math.PI * 1320 * 5.4 * t) * Math.exp(-t * 9));
+	}),
+);
+
+// Coin clink.
+writeWav(
+	'clink.wav',
+	render(0.4, (t) => {
+		const hit = (t0, g) => {
+			const d = t - t0;
+			if (d < 0) return 0;
+			const env = Math.exp(-d * 22);
+			return g * env * (Math.sin(2 * Math.PI * 3150 * d) + 0.7 * Math.sin(2 * Math.PI * 4720 * d) + 0.4 * Math.sin(2 * Math.PI * 6180 * d));
+		};
+		return hit(0, 1) + hit(0.07, 0.6);
+	}),
+);
+
+// Phone notification: vibration buzz + two-tone chime.
+writeWav(
+	'notify.wav',
+	render(0.8, (t) => {
+		const buzz = t < 0.35 ? 0.35 * Math.sign(Math.sin(2 * Math.PI * 165 * t)) * (0.5 + 0.5 * Math.sin(2 * Math.PI * 28 * t)) : 0;
+		const tone = (t0, f) => {
+			const d = t - t0;
+			if (d < 0) return 0;
+			return Math.min(1, d * 400) * Math.exp(-d * 7) * (Math.sin(2 * Math.PI * f * d) + 0.3 * Math.sin(2 * Math.PI * f * 2 * d));
+		};
+		return buzz * 0.6 + tone(0.3, 988) + tone(0.45, 1480);
+	}),
+);
+
 // Music bed: warm pad plus a light plucked arpeggio, 100 BPM, 12 seconds.
 const BPM = 100;
 const beat = 60 / BPM;

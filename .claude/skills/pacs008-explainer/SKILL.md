@@ -1,43 +1,56 @@
 ---
 name: pacs008-explainer
-description: Build and edit scenes of the pacs.008 payment explainer video (LinkedIn, Remotion) in pacs008-video/. Use when asked to add a scene, re-time the voiceover, change animations, or render for LinkedIn/Canva.
+description: Build and edit the "ISO 20022 in Real Life" explainer videos (LinkedIn, Remotion) in pacs008-video/, e.g. Episode 01 (pacs.008) or a new episode like Ep.02 (pacs.004). Use when asked to add or change a scene, re-time the voiceover, change animations, or render for LinkedIn/Canva.
 ---
 
-# pacs.008 explainer video
+# ISO 20022 in Real Life (Remotion)
 
-The project lives in `pacs008-video/` and uses Remotion. Load the `remotion-best-practices`
-skill for general Remotion rules; this skill holds the project-specific conventions.
+The project lives in `pacs008-video/`. Load the `remotion-best-practices` skill for general Remotion
+rules; this skill holds the series conventions. Episode 01 is in `src/ep01/` and is the reference
+implementation for new episodes.
 
 ## Format
 
-- 1080×1350 (LinkedIn 4:5), 30 fps. Safe area: key text ≥80px from the sides, ≥100px from top/bottom.
-- Burned-in captions on every scene, from the first frame, bottom-centred (`Captions.tsx`).
-- The first frame of every scene must already carry its headline (muted autoplay).
+- 1080×1350 (LinkedIn 4:5), 30 fps. Safe area: key text ≥80px from sides, ≥100px top/bottom.
+- Top zone (y 96–240): on-screen text (`TopText`) or numbered step chips (`StepChip`).
+- Bottom zone (from y ≈1130): burned-in captions, always on.
+- Frame 0 of an episode is the thumbnail: big text, strong contrast.
 
-## Visual language (see `src/scene1/theme.ts`)
+## Colour code and recurring assets (`src/ep01/theme.ts`, `src/ep01/art/`)
 
-- Navy background (`COLORS.background`), white cards, Inter for text, JetBrains Mono for message names.
-- Recurring props: phone, map card (Casablanca → Hamburg), € coin (gold), envelope (white) with a blue
-  mono chip naming the ISO 20022 message (`pacs.008`, later `pacs.002`…), orange ✕ for "blocked".
-- Scene transitions are match cuts: the last frame of a scene is the first frame of the next.
-  Scene 1 ends on the full-frame envelope centred at (540, 675), 880×600.
+| Element | Colour | Asset |
+|---|---|---|
+| pacs.008 | blue | `Envelope` (letter inside, re-addressed at every hop: From → To) |
+| pacs.002 | grey, dashed | `Receipt` (visual only, no voiceover) |
+| money / settlement | green | `Coin`, `PiggyBank` |
+| banks | gold | `Bank` with letter badge + flag |
+| T2 | dark teal | `T2Building` with "formerly TARGET2" sticker |
+| UETR | purple, glowing | `UetrTag` (glows every time it appears) |
 
-## Timing: everything keys off the voiceover
+The letter never changes: "Amina pays Lukas · EUR 12,000 · Invoice INV-2026-114 · UETR 8a3f…c29e".
 
-- Each scene has a `voiceover.ts` with word timings (`Caption[]`) and a `BEATS` map built with
-  `cue('word')`. Never hard-code a beat frame; add a named beat instead.
-- Storyboard lines like "on the word X" map to `cue('X')`.
-- One-shot effects go in `<Sequence from={BEATS.x}>` with literal local keyframes inside, so they
-  stay editable in Remotion Studio.
+## Timing
+
+- `timing.ts` holds the scene windows and the voiceover script, sentence by sentence with start/end
+  seconds. Word timings are derived from it; `cue(scene, word, nth)` returns the scene-local frame.
+- Never hard-code a beat frame when it belongs to a word; add a `cue()`.
+- Scenes are `<Sequence>`s at their storyboard times; each scene uses scene-local frames.
 
 ## Sound
 
-- SFX are synthesized in `scripts/generate-audio.mjs` (run `npm run audio`). Add new sounds there.
-- The **stamp thud is reserved for Step 4 (settlement)**. Do not use it in any other scene.
-- Keep music under the voiceover (~0.2–0.3 volume); use hard cuts for emphasis.
+- All SFX are synthesized in `scripts/generate-audio.mjs` (`npm run audio`); add new sounds there.
+- The stamp **thunk** is reserved for settlement (step ④). Don't use it anywhere else.
+- Music bed stays around 0.1–0.13 volume under the voiceover.
+
+## Pitfalls
+
+- No emoji or unusual glyphs in text: the bundled Inter subset lacks → ✓ ① etc. and headless Chrome
+  has no emoji font. Use the SVG icons in `art/Icons.tsx` and `art/Flags.tsx`.
+- Don't use `@remotion/google-fonts`; fonts are local in `public/fonts`.
 
 ## Checks before finishing
 
 1. `npx tsc --noEmit && npx eslint src`
-2. Render stills at the key beats: `npx remotion still <Comp> --frame=N --scale=0.5`, and look at them.
-3. Render the scene: `npm run render` (add a script per scene) and copy it to `renders/`.
+2. Stills of each changed scene: `npx remotion still Ep01-s3 --frame=N --scale=0.5` (scene
+   compositions live in the `Episode01-Scenes` folder), and look at them.
+3. `npm run render:ep01`, then copy to `renders/`.

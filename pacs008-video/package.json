@@ -31,7 +31,9 @@
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc",
     "audio": "node scripts/generate-audio.mjs",
-    "render": "remotion render Scene1Hook out/scene1-hook.mp4"
+    "render": "remotion render Scene1Hook out/scene1-hook.mp4",
+    "render:ep01": "remotion render Episode01 out/ep01-pacs008.mp4",
+    "thumbnail:ep01": "remotion still Episode01 out/ep01-thumbnail.png --frame=0"
   },
   "sideEffects": [
     "*.css"
