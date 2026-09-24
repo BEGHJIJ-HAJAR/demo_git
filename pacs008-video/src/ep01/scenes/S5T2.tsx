@@ -16,9 +16,9 @@ const DRIVE_LEN = 44;
 const T2_PULSE = cue("s5", "T2");
 const INSIDE = cue("s5", "where") - 4;
 const COINS = cue("s5", "money");
-export const S5_STAMP = 186;
-export const S5_RECEIPT = 196;
-const RECEIPT_LEN = 34;
+export const S5_STAMP = cue("s5", "Frankfurt") + 4;
+export const S5_RECEIPT = S5_STAMP + 8;
+const RECEIPT_LEN = 30;
 
 const ROAD_Y = 580;
 
@@ -146,7 +146,7 @@ const Inside: React.FC<{ frame: number; inside: number }> = ({
   inside,
 }) => {
   const moved = [0, 1, 2, 3].map((i) =>
-    prog(frame, COINS + i * 12, 26, EASE_IN_OUT),
+    prog(frame, COINS + i * 8, 22, EASE_IN_OUT),
   );
   const done = moved.reduce((a, b) => a + b, 0) / 4;
   const paris = Math.round(interpolate(done, [0, 1], [5000000, 4988000]));

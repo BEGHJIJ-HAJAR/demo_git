@@ -154,7 +154,7 @@ export const Soundtrack: React.FC = () => (
           interpolate(
             f,
             [0, 10, TOTAL_FRAMES - 45, TOTAL_FRAMES],
-            [0.1, 0.13, 0.13, 0],
+            [0.04, 0.05, 0.05, 0],
             { extrapolateLeft: "clamp", extrapolateRight: "clamp" },
           )
         }

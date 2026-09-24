@@ -30,7 +30,7 @@ export const episodeSchema = z.object({
 export type EpisodeProps = z.infer<typeof episodeSchema>;
 
 export const defaultEpisodeProps: EpisodeProps = {
-  voiceover: "",
+  voiceover: "voiceover/ep01.mp3",
   captions: true,
   authorName: "Your Name",
   authorRole: "Payments & ISO 20022",
@@ -50,6 +50,9 @@ export const SCENE_COMPONENTS: Record<SceneId, SceneComponent> = {
   s7: S7Recap,
   s8: S8Cta,
 };
+
+/** The recording is fairly quiet; lift it slightly above the music and effects. */
+const VOICEOVER_GAIN = 1.4;
 
 export const Background: React.FC = () => (
   <AbsoluteFill
@@ -93,6 +96,7 @@ export const Episode01: React.FC<EpisodeProps> = (props) => (
             ? props.voiceover
             : staticFile(props.voiceover)
         }
+        volume={() => VOICEOVER_GAIN}
       />
     ) : null}
   </AbsoluteFill>

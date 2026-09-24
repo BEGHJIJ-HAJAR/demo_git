@@ -1,0 +1,11 @@
+{
+  "s0": "You tap “Send”… and your money goes on a trip through four banks and a central bank. Let’s follow it.",
+  "s1": "Meet Amina. She runs a bakery in Casablanca, and she just bought a new oven from Lukas in Munich. Twelve thousand euros. In ISO 20022, Amina is the Debtor, and Lukas is the Creditor.",
+  "s2": "Her bank, Casa Bank, is in Morocco. It can’t access Europe’s euro payment system directly, so it sends the payment to its partner in Europe, Paris Bank…",
+  "s3": "…using a pacs.008: a Financial Institution to Financial Institution Customer Credit Transfer. Picture an envelope with a letter inside. The envelope travels between banks. The letter is the customer’s payment: Amina pays Lukas. Customers, not banks.",
+  "s4": "And the twist: the money doesn’t cross the border. The message does. Casa Bank already keeps euros in an account at Paris Bank, so Paris Bank simply debits it.",
+  "s5": "Paris Bank sends it on to T2, formerly TARGET2, where the money moves from Paris Bank’s account to Frankfurt Bank’s.",
+  "s6": "Frankfurt Bank passes it to Munich Bank, and Lukas is paid.",
+  "s7": "pacs.008: a message between banks carrying a customer’s payment. Four envelopes, one letter.",
+  "s8": "Next: when the money comes back. Follow the series."
+}

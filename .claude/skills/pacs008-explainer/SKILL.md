@@ -31,10 +31,12 @@ The letter never changes: "Amina pays Lukas · EUR 12,000 · Invoice INV-2026-11
 
 ## Timing
 
-- `timing.ts` holds the scene windows and the voiceover script, sentence by sentence with start/end
-  seconds. Word timings are derived from it; `cue(scene, word, nth)` returns the scene-local frame.
-- Never hard-code a beat frame when it belongs to a word; add a `cue()`.
-- Scenes are `<Sequence>`s at their storyboard times; each scene uses scene-local frames.
+- The recorded voiceover drives everything. `script.json` holds the spoken text per scene;
+  `voiceover-words.json` holds each word's start/end in the recording (sherpa-onnx recognition +
+  `scripts/align_voiceover.py`, see the README). Scene windows are derived from it in `timing.ts`.
+- `cue(scene, word, nth)` returns the scene-local frame of a word. Never hard-code a beat frame that
+  belongs to a word; add a `cue()`. Use `sceneDuration(scene)` for "near the end of the scene".
+- Scenes are `<Sequence>`s at their derived times; each scene uses scene-local frames.
 
 ## Sound
 
