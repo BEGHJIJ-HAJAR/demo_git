@@ -1,7 +1,7 @@
 import React from "react";
 import { AbsoluteFill } from "remotion";
 import { z } from "zod";
-import { mono, sans } from "../scene1/theme";
+import { sans } from "../scene1/theme";
 
 // LinkedIn profile background: 1584×396. The profile photo covers the
 // bottom-left on desktop (and the left side on mobile), so the message sits right.
@@ -16,26 +16,31 @@ export const bannerSchema = z.object({
 });
 export type BannerProps = z.infer<typeof bannerSchema>;
 
-// Stylised (not geographic) positions of financial centres.
+// Abstract network (no real places).
 const CITIES = [
-  { name: "New York", x: 330, y: 150 },
-  { name: "London", x: 560, y: 95 },
-  { name: "Paris", x: 600, y: 170 },
-  { name: "Frankfurt", x: 700, y: 120 },
-  { name: "Casablanca", x: 520, y: 275 },
-  { name: "Dubai", x: 790, y: 245 },
-  { name: "Singapore", x: 860, y: 330 },
+  { x: 300, y: 140 },
+  { x: 430, y: 80 },
+  { x: 520, y: 180 },
+  { x: 650, y: 110 },
+  { x: 470, y: 290 },
+  { x: 760, y: 230 },
+  { x: 860, y: 320 },
+  { x: 880, y: 120 },
+  { x: 620, y: 330 },
 ];
 const ROUTES: Array<[number, number, boolean]> = [
   [4, 2, true],
   [2, 3, true],
+  [3, 7, true],
   [0, 1, false],
   [1, 3, false],
   [3, 5, false],
   [5, 6, false],
   [0, 4, false],
-  [4, 5, false],
+  [4, 8, false],
+  [8, 5, false],
   [1, 2, false],
+  [7, 5, false],
 ];
 
 const arc = (a: { x: number; y: number }, b: { x: number; y: number }) => {
@@ -126,45 +131,17 @@ export const LinkedInBanner: React.FC<BannerProps> = ({
         </g>
       ))}
       {CITIES.map((c, i) => (
-        <g key={c.name}>
+        <g key={i}>
           <circle cx={c.x} cy={c.y} r={16} fill="#5C8DFF" opacity={0.14} />
           <circle
             cx={c.x}
             cy={c.y}
             r={6}
-            fill={i === 2 || i === 3 || i === 4 ? "#FFC94D" : "#8DB4FF"}
+            fill={
+              i === 2 || i === 3 || i === 4 || i === 7 ? "#FFC94D" : "#8DB4FF"
+            }
           />
-          <text
-            x={c.x + 12}
-            y={c.y - 10}
-            fontFamily={sans}
-            fontWeight={700}
-            fontSize={14}
-            fill="#A9BBCE"
-            opacity={0.85}
-          >
-            {c.name}
-          </text>
         </g>
-      ))}
-      {[
-        { t: "ISO 20022", x: 380, y: 60 },
-        { t: "T2", x: 745, y: 175 },
-        { t: "CBPR+", x: 800, y: 60 },
-        { t: "Instant", x: 640, y: 350 },
-      ].map((t) => (
-        <text
-          key={t.t}
-          x={t.x}
-          y={t.y}
-          fontFamily={mono}
-          fontWeight={700}
-          fontSize={15}
-          fill="#8DB4FF"
-          opacity={0.4}
-        >
-          {t.t}
-        </text>
       ))}
     </svg>
 

@@ -55,10 +55,10 @@ export const RemotionRoot: React.FC = () => {
           component={LinkedInBanner}
           schema={bannerSchema}
           defaultProps={{
-            kicker: "PAYMENTS · ISO 20022 · CROSS-BORDER",
-            headline: "Shaping the future of",
-            accent: "global payments.",
-            sub: "From message standards to market infrastructures.",
+            kicker: "PAYMENTS · ISO 20022 · MESSAGING",
+            headline: "Driven by the systems",
+            accent: "that move money.",
+            sub: "Payments · Standards · Market infrastructures",
           }}
           durationInFrames={1}
           fps={30}
