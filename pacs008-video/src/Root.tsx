@@ -4,7 +4,7 @@ import { Scene1Hook, scene1Schema } from "./scene1/Scene1Hook";
 import { DURATION_IN_FRAMES, FPS } from "./scene1/voiceover";
 import { HEIGHT, WIDTH } from "./scene1/theme";
 import { Gallery } from "./ep01/Gallery";
-import { LinkedInBanner } from "./brand/LinkedInBanner";
+import { LinkedInBanner, bannerSchema } from "./brand/LinkedInBanner";
 import {
   Episode01,
   defaultEpisodeProps,
@@ -53,6 +53,13 @@ export const RemotionRoot: React.FC = () => {
         <Composition
           id="LinkedInBanner"
           component={LinkedInBanner}
+          schema={bannerSchema}
+          defaultProps={{
+            kicker: "PAYMENTS · ISO 20022 · CROSS-BORDER",
+            headline: "Shaping the future of",
+            accent: "global payments.",
+            sub: "From message standards to market infrastructures.",
+          }}
           durationInFrames={1}
           fps={30}
           width={1584}
