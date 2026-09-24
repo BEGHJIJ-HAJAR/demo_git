@@ -4,6 +4,7 @@ import { Scene1Hook, scene1Schema } from "./scene1/Scene1Hook";
 import { DURATION_IN_FRAMES, FPS } from "./scene1/voiceover";
 import { HEIGHT, WIDTH } from "./scene1/theme";
 import { Gallery } from "./ep01/Gallery";
+import { LinkedInBanner } from "./brand/LinkedInBanner";
 import {
   Episode01,
   defaultEpisodeProps,
@@ -39,7 +40,24 @@ export const RemotionRoot: React.FC = () => {
             height={1350}
           />
         ))}
-        <Composition id="Ep01Gallery" component={Gallery} durationInFrames={120} fps={30} width={1080} height={1350} />
+        <Composition
+          id="Ep01Gallery"
+          component={Gallery}
+          durationInFrames={120}
+          fps={30}
+          width={1080}
+          height={1350}
+        />
+      </Folder>
+      <Folder name="Brand">
+        <Composition
+          id="LinkedInBanner"
+          component={LinkedInBanner}
+          durationInFrames={1}
+          fps={30}
+          width={1584}
+          height={396}
+        />
       </Folder>
       <Folder name="Earlier">
         <Composition
