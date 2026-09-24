@@ -6,6 +6,7 @@ import { HEIGHT, WIDTH } from "./scene1/theme";
 import { Gallery } from "./ep01/Gallery";
 import { LinkedInBanner, bannerSchema } from "./brand/LinkedInBanner";
 import { LinkedInBannerHuman } from "./brand/LinkedInBannerHuman";
+import { LinkedInBannerDesk } from "./brand/LinkedInBannerDesk";
 import {
   Episode01,
   defaultEpisodeProps,
@@ -51,6 +52,14 @@ export const RemotionRoot: React.FC = () => {
         />
       </Folder>
       <Folder name="Brand">
+        <Composition
+          id="LinkedInBannerDesk"
+          component={LinkedInBannerDesk}
+          durationInFrames={1}
+          fps={30}
+          width={1584}
+          height={396}
+        />
         <Composition
           id="LinkedInBannerHuman"
           component={LinkedInBannerHuman}
