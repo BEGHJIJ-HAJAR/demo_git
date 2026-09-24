@@ -43,12 +43,12 @@ export const S8Cta: React.FC<{ author?: EpisodeProps }> = ({ author }) => {
       <div
         style={{
           position: "absolute",
-          left: x - 150,
-          top: 400 + (frame < BOUNCE + 30 ? bounce : settle),
+          left: x - 130,
+          top: 300 + (frame < BOUNCE + 30 ? bounce : settle),
           rotate: `${interpolate(frame, [BOUNCE, BOUNCE + 16], [12, 0], clamp)}deg`,
         }}
       >
-        <Envelope width={300} from="D" to="A" compact />
+        <Envelope width={260} from="D" to="A" compact />
         <div
           style={{
             position: "absolute",
@@ -75,7 +75,7 @@ export const S8Cta: React.FC<{ author?: EpisodeProps }> = ({ author }) => {
             position: "absolute",
             left: 60,
             right: 60,
-            top: 640,
+            top: 510,
             textAlign: "center",
             fontFamily: sans,
             color: "white",
@@ -133,7 +133,7 @@ const SeriesLogo: React.FC<{ s: number }> = ({ s }) => (
   <div
     style={{
       position: "absolute",
-      top: 110,
+      top: 96,
       left: 0,
       right: 0,
       display: "flex",
@@ -196,85 +196,106 @@ const AuthorCard: React.FC<{ frame: number; author?: EpisodeProps }> = ({
     .join("")
     .slice(0, 2)
     .toUpperCase();
+  const PHOTO = 150;
   return (
     <div
       style={{
         position: "absolute",
         left: 0,
         right: 0,
-        top: 890,
+        top: 760,
         display: "flex",
-        justifyContent: "center",
+        flexDirection: "column",
+        alignItems: "center",
+        gap: 26,
         scale: s,
+        fontFamily: sans,
       }}
     >
       <div
         style={{
           display: "flex",
           alignItems: "center",
-          gap: 22,
-          padding: "16px 20px 16px 16px",
-          borderRadius: 60,
+          gap: 26,
+          padding: "14px 40px 14px 14px",
+          borderRadius: PHOTO,
           backgroundColor: "white",
           boxShadow: "0 16px 40px rgba(0,0,0,0.4)",
-          fontFamily: sans,
           color: C.ink,
         }}
       >
-        {author?.authorPhoto ? (
-          <Img
-            src={staticFile(author.authorPhoto)}
-            style={{
-              width: 96,
-              height: 96,
-              borderRadius: 48,
-              objectFit: "cover",
-            }}
-          />
-        ) : (
-          <div
-            style={{
-              width: 96,
-              height: 96,
-              borderRadius: 48,
-              backgroundColor: C.blue,
-              color: "white",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              fontWeight: 800,
-              fontSize: 38,
-            }}
-          >
-            {initials}
-          </div>
-        )}
+        <div
+          style={{
+            width: PHOTO,
+            height: PHOTO,
+            borderRadius: PHOTO / 2,
+            padding: 5,
+            background: `linear-gradient(135deg, ${C.blue}, ${C.blueLight})`,
+            boxSizing: "border-box",
+            flexShrink: 0,
+          }}
+        >
+          {author?.authorPhoto ? (
+            <Img
+              src={staticFile(author.authorPhoto)}
+              style={{
+                width: "100%",
+                height: "100%",
+                borderRadius: "50%",
+                objectFit: "cover",
+                border: "4px solid white",
+                boxSizing: "border-box",
+              }}
+            />
+          ) : (
+            <div
+              style={{
+                width: "100%",
+                height: "100%",
+                borderRadius: "50%",
+                backgroundColor: C.blue,
+                color: "white",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                fontWeight: 800,
+                fontSize: 52,
+                border: "4px solid white",
+                boxSizing: "border-box",
+              }}
+            >
+              {initials}
+            </div>
+          )}
+        </div>
         <div>
-          <div style={{ fontWeight: 800, fontSize: 38 }}>{name}</div>
-          <div style={{ fontWeight: 600, fontSize: 24, color: C.inkMuted }}>
+          <div style={{ fontWeight: 800, fontSize: 50, letterSpacing: 1 }}>
+            {name}
+          </div>
+          <div style={{ fontWeight: 600, fontSize: 28, color: C.inkMuted }}>
             {author?.authorRole}
           </div>
         </div>
-        <div
-          style={{
-            marginLeft: 10,
-            padding: "16px 30px",
-            borderRadius: 40,
-            backgroundColor: C.blue,
-            color: "white",
-            fontWeight: 800,
-            fontSize: 34,
-            whiteSpace: "nowrap",
-            scale: interpolate(
-              frame,
-              [FOLLOW, FOLLOW + 6, FOLLOW + 12],
-              [1, 1.08, 1],
-              clamp,
-            ),
-          }}
-        >
-          + Follow for the series
-        </div>
+      </div>
+      <div
+        style={{
+          padding: "18px 40px",
+          borderRadius: 44,
+          backgroundColor: C.blue,
+          color: "white",
+          fontWeight: 800,
+          fontSize: 40,
+          whiteSpace: "nowrap",
+          boxShadow: "0 12px 28px rgba(47,107,255,0.45)",
+          scale: interpolate(
+            frame,
+            [FOLLOW, FOLLOW + 6, FOLLOW + 12],
+            [1, 1.08, 1],
+            clamp,
+          ),
+        }}
+      >
+        + Follow for the series
       </div>
     </div>
   );

@@ -36,7 +36,7 @@ npm run audio          # regenerate the synthesized SFX + music in public/audio
 
 ## Before posting
 
-1. **Your name and photo on the end card:** set the `authorName`, `authorRole` and `authorPhoto`
+1. **Name and photo on the end card** (set to HAJAR BEGHJIJ + `public/author.jpg`; to change): set the `authorName`, `authorRole` and `authorPhoto`
    props (Studio props panel, or `defaultEpisodeProps` in `src/ep01/Episode01.tsx`). Put the photo
    in `public/` (e.g. `public/author.jpg`) and set `authorPhoto` to `author.jpg`. Or pass them on the CLI:
    `npx remotion render Episode01 out/ep01.mp4 --props='{"voiceover":"","captions":true,"authorName":"…","authorRole":"…","authorPhoto":"author.jpg"}'`

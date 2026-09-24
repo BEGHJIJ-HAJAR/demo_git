@@ -1,1196 +1,1196 @@
 [
- {
-  "scene": "s0",
-  "text": "You",
-  "startMs": 0,
-  "endMs": 220
- },
- {
-  "scene": "s0",
-  "text": "tap",
-  "startMs": 240,
-  "endMs": 680
- },
- {
-  "scene": "s0",
-  "text": "“Send”…",
-  "startMs": 680,
-  "endMs": 1160
- },
- {
-  "scene": "s0",
-  "text": "and",
-  "startMs": 1280,
-  "endMs": 1400
- },
- {
-  "scene": "s0",
-  "text": "your",
-  "startMs": 1560,
-  "endMs": 1820
- },
- {
-  "scene": "s0",
-  "text": "money",
-  "startMs": 1840,
-  "endMs": 2140
- },
- {
-  "scene": "s0",
-  "text": "goes",
-  "startMs": 2160,
-  "endMs": 2500
- },
- {
-  "scene": "s0",
-  "text": "on",
-  "startMs": 2520,
-  "endMs": 2660
- },
- {
-  "scene": "s0",
-  "text": "a",
-  "startMs": 2680,
-  "endMs": 2800
- },
- {
-  "scene": "s0",
-  "text": "trip",
-  "startMs": 2840,
-  "endMs": 3220
- },
- {
-  "scene": "s0",
-  "text": "through",
-  "startMs": 3320,
-  "endMs": 3660
- },
- {
-  "scene": "s0",
-  "text": "four",
-  "startMs": 3680,
-  "endMs": 4060
- },
- {
-  "scene": "s0",
-  "text": "banks",
-  "startMs": 4080,
-  "endMs": 4480
- },
- {
-  "scene": "s0",
-  "text": "and",
-  "startMs": 4720,
-  "endMs": 4880
- },
- {
-  "scene": "s0",
-  "text": "a",
-  "startMs": 4880,
-  "endMs": 5020
- },
- {
-  "scene": "s0",
-  "text": "central",
-  "startMs": 5040,
-  "endMs": 5540
- },
- {
-  "scene": "s0",
-  "text": "bank.",
-  "startMs": 5560,
-  "endMs": 5880
- },
- {
-  "scene": "s0",
-  "text": "Let’s",
-  "startMs": 6040,
-  "endMs": 6440
- },
- {
-  "scene": "s0",
-  "text": "follow",
-  "startMs": 6480,
-  "endMs": 6860
- },
- {
-  "scene": "s0",
-  "text": "it.",
-  "startMs": 6880,
-  "endMs": 7020
- },
- {
-  "scene": "s1",
-  "text": "Meet",
-  "startMs": 8000,
-  "endMs": 8440
- },
- {
-  "scene": "s1",
-  "text": "Amina.",
-  "startMs": 8480,
-  "endMs": 9180
- },
- {
-  "scene": "s1",
-  "text": "She",
-  "startMs": 9200,
-  "endMs": 9280
- },
- {
-  "scene": "s1",
-  "text": "runs",
-  "startMs": 9600,
-  "endMs": 9960
- },
- {
-  "scene": "s1",
-  "text": "a",
-  "startMs": 9960,
-  "endMs": 10060
- },
- {
-  "scene": "s1",
-  "text": "bakery",
-  "startMs": 10080,
-  "endMs": 10460
- },
- {
-  "scene": "s1",
-  "text": "in",
-  "startMs": 10480,
-  "endMs": 10580
- },
- {
-  "scene": "s1",
-  "text": "Casablanca,",
-  "startMs": 10600,
-  "endMs": 11420
- },
- {
-  "scene": "s1",
-  "text": "and",
-  "startMs": 11440,
-  "endMs": 11620
- },
- {
-  "scene": "s1",
-  "text": "she",
-  "startMs": 11640,
-  "endMs": 11840
- },
- {
-  "scene": "s1",
-  "text": "just",
-  "startMs": 11840,
-  "endMs": 12060
- },
- {
-  "scene": "s1",
-  "text": "bought",
-  "startMs": 12080,
-  "endMs": 12340
- },
- {
-  "scene": "s1",
-  "text": "a",
-  "startMs": 12360,
-  "endMs": 12460
- },
- {
-  "scene": "s1",
-  "text": "new",
-  "startMs": 12480,
-  "endMs": 12700
- },
- {
-  "scene": "s1",
-  "text": "oven",
-  "startMs": 12720,
-  "endMs": 13060
- },
- {
-  "scene": "s1",
-  "text": "from",
-  "startMs": 13080,
-  "endMs": 13260
- },
- {
-  "scene": "s1",
-  "text": "Lukas",
-  "startMs": 13280,
-  "endMs": 13800
- },
- {
-  "scene": "s1",
-  "text": "in",
-  "startMs": 13840,
-  "endMs": 14020
- },
- {
-  "scene": "s1",
-  "text": "Munich.",
-  "startMs": 14040,
-  "endMs": 14480
- },
- {
-  "scene": "s1",
-  "text": "Twelve",
-  "startMs": 14720,
-  "endMs": 15180
- },
- {
-  "scene": "s1",
-  "text": "thousand",
-  "startMs": 15200,
-  "endMs": 15740
- },
- {
-  "scene": "s1",
-  "text": "euros.",
-  "startMs": 15760,
-  "endMs": 16620
- },
- {
-  "scene": "s1",
-  "text": "In",
-  "startMs": 16640,
-  "endMs": 16940
- },
- {
-  "scene": "s1",
-  "text": "ISO",
-  "startMs": 16960,
-  "endMs": 17440
- },
- {
-  "scene": "s1",
-  "text": "20022,",
-  "startMs": 17440,
-  "endMs": 18860
- },
- {
-  "scene": "s1",
-  "text": "Amina",
-  "startMs": 19040,
-  "endMs": 19780
- },
- {
-  "scene": "s1",
-  "text": "is",
-  "startMs": 19880,
-  "endMs": 20180
- },
- {
-  "scene": "s1",
-  "text": "the",
-  "startMs": 20200,
-  "endMs": 20460
- },
- {
-  "scene": "s1",
-  "text": "Debtor,",
-  "startMs": 20480,
-  "endMs": 20980
- },
- {
-  "scene": "s1",
-  "text": "and",
-  "startMs": 21240,
-  "endMs": 21540
- },
- {
-  "scene": "s1",
-  "text": "Lukas",
-  "startMs": 21560,
-  "endMs": 22040
- },
- {
-  "scene": "s1",
-  "text": "is",
-  "startMs": 22080,
-  "endMs": 22220
- },
- {
-  "scene": "s1",
-  "text": "the",
-  "startMs": 22240,
-  "endMs": 22360
- },
- {
-  "scene": "s1",
-  "text": "Creditor.",
-  "startMs": 22400,
-  "endMs": 23520
- },
- {
-  "scene": "s2",
-  "text": "Her",
-  "startMs": 23640,
-  "endMs": 24260
- },
- {
-  "scene": "s2",
-  "text": "bank,",
-  "startMs": 24280,
-  "endMs": 24780
- },
- {
-  "scene": "s2",
-  "text": "Casa",
-  "startMs": 24880,
-  "endMs": 25340
- },
- {
-  "scene": "s2",
-  "text": "Bank,",
-  "startMs": 25360,
-  "endMs": 25720
- },
- {
-  "scene": "s2",
-  "text": "is",
-  "startMs": 25760,
-  "endMs": 25940
- },
- {
-  "scene": "s2",
-  "text": "in",
-  "startMs": 25960,
-  "endMs": 26120
- },
- {
-  "scene": "s2",
-  "text": "Morocco.",
-  "startMs": 26120,
-  "endMs": 26840
- },
- {
-  "scene": "s2",
-  "text": "It",
-  "startMs": 26920,
-  "endMs": 27020
- },
- {
-  "scene": "s2",
-  "text": "can’t",
-  "startMs": 27200,
-  "endMs": 27540
- },
- {
-  "scene": "s2",
-  "text": "access",
-  "startMs": 27560,
-  "endMs": 28040
- },
- {
-  "scene": "s2",
-  "text": "Europe’s",
-  "startMs": 28040,
-  "endMs": 28460
- },
- {
-  "scene": "s2",
-  "text": "euro",
-  "startMs": 28480,
-  "endMs": 28780
- },
- {
-  "scene": "s2",
-  "text": "payment",
-  "startMs": 28800,
-  "endMs": 29140
- },
- {
-  "scene": "s2",
-  "text": "system",
-  "startMs": 29160,
-  "endMs": 29600
- },
- {
-  "scene": "s2",
-  "text": "directly,",
-  "startMs": 29600,
-  "endMs": 30300
- },
- {
-  "scene": "s2",
-  "text": "so",
-  "startMs": 30320,
-  "endMs": 30600
- },
- {
-  "scene": "s2",
-  "text": "it",
-  "startMs": 30600,
-  "endMs": 30740
- },
- {
-  "scene": "s2",
-  "text": "sends",
-  "startMs": 30760,
-  "endMs": 31120
- },
- {
-  "scene": "s2",
-  "text": "the",
-  "startMs": 31120,
-  "endMs": 31220
- },
- {
-  "scene": "s2",
-  "text": "payment",
-  "startMs": 31240,
-  "endMs": 31640
- },
- {
-  "scene": "s2",
-  "text": "to",
-  "startMs": 31640,
-  "endMs": 31780
- },
- {
-  "scene": "s2",
-  "text": "its",
-  "startMs": 31800,
-  "endMs": 31960
- },
- {
-  "scene": "s2",
-  "text": "partner",
-  "startMs": 32040,
-  "endMs": 32520
- },
- {
-  "scene": "s2",
-  "text": "in",
-  "startMs": 32520,
-  "endMs": 32700
- },
- {
-  "scene": "s2",
-  "text": "Europe,",
-  "startMs": 32720,
-  "endMs": 33020
- },
- {
-  "scene": "s2",
-  "text": "Paris",
-  "startMs": 33320,
-  "endMs": 33720
- },
- {
-  "scene": "s2",
-  "text": "Bank…",
-  "startMs": 33800,
-  "endMs": 34120
- },
- {
-  "scene": "s3",
-  "text": "…using",
-  "startMs": 34280,
-  "endMs": 34660
- },
- {
-  "scene": "s3",
-  "text": "a",
-  "startMs": 34680,
-  "endMs": 34820
- },
- {
-  "scene": "s3",
-  "text": "pacs.008:",
-  "startMs": 34840,
-  "endMs": 36520
- },
- {
-  "scene": "s3",
-  "text": "a",
-  "startMs": 36840,
-  "endMs": 37040
- },
- {
-  "scene": "s3",
-  "text": "Financial",
-  "startMs": 37120,
-  "endMs": 37780
- },
- {
-  "scene": "s3",
-  "text": "Institution",
-  "startMs": 37800,
-  "endMs": 38380
- },
- {
-  "scene": "s3",
-  "text": "to",
-  "startMs": 38400,
-  "endMs": 38520
- },
- {
-  "scene": "s3",
-  "text": "Financial",
-  "startMs": 38520,
-  "endMs": 39100
- },
- {
-  "scene": "s3",
-  "text": "Institution",
-  "startMs": 39120,
-  "endMs": 39740
- },
- {
-  "scene": "s3",
-  "text": "Customer",
-  "startMs": 39760,
-  "endMs": 40240
- },
- {
-  "scene": "s3",
-  "text": "Credit",
-  "startMs": 40240,
-  "endMs": 40640
- },
- {
-  "scene": "s3",
-  "text": "Transfer.",
-  "startMs": 40640,
-  "endMs": 41540
- },
- {
-  "scene": "s3",
-  "text": "Picture",
-  "startMs": 41640,
-  "endMs": 42340
- },
- {
-  "scene": "s3",
-  "text": "an",
-  "startMs": 42360,
-  "endMs": 42560
- },
- {
-  "scene": "s3",
-  "text": "envelope",
-  "startMs": 42560,
-  "endMs": 43060
- },
- {
-  "scene": "s3",
-  "text": "with",
-  "startMs": 43280,
-  "endMs": 43420
- },
- {
-  "scene": "s3",
-  "text": "a",
-  "startMs": 43440,
-  "endMs": 43580
- },
- {
-  "scene": "s3",
-  "text": "letter",
-  "startMs": 43600,
-  "endMs": 43940
- },
- {
-  "scene": "s3",
-  "text": "inside.",
-  "startMs": 43960,
-  "endMs": 44420
- },
- {
-  "scene": "s3",
-  "text": "The",
-  "startMs": 44560,
-  "endMs": 44640
- },
- {
-  "scene": "s3",
-  "text": "envelope",
-  "startMs": 44800,
-  "endMs": 45320
- },
- {
-  "scene": "s3",
-  "text": "travels",
-  "startMs": 45400,
-  "endMs": 45860
- },
- {
-  "scene": "s3",
-  "text": "between",
-  "startMs": 45880,
-  "endMs": 46180
- },
- {
-  "scene": "s3",
-  "text": "banks.",
-  "startMs": 46200,
-  "endMs": 46640
- },
- {
-  "scene": "s3",
-  "text": "The",
-  "startMs": 46780,
-  "endMs": 46920
- },
- {
-  "scene": "s3",
-  "text": "letter",
-  "startMs": 47100,
-  "endMs": 47520
- },
- {
-  "scene": "s3",
-  "text": "is",
-  "startMs": 47540,
-  "endMs": 47660
- },
- {
-  "scene": "s3",
-  "text": "the",
-  "startMs": 47700,
-  "endMs": 47900
- },
- {
-  "scene": "s3",
-  "text": "customer’s",
-  "startMs": 47900,
-  "endMs": 48440
- },
- {
-  "scene": "s3",
-  "text": "payment:",
-  "startMs": 48500,
-  "endMs": 49020
- },
- {
-  "scene": "s3",
-  "text": "Amina",
-  "startMs": 49140,
-  "endMs": 49780
- },
- {
-  "scene": "s3",
-  "text": "pays",
-  "startMs": 49780,
-  "endMs": 50200
- },
- {
-  "scene": "s3",
-  "text": "Lukas.",
-  "startMs": 50220,
-  "endMs": 50600
- },
- {
-  "scene": "s3",
-  "text": "Customers,",
-  "startMs": 50940,
-  "endMs": 51880
- },
- {
-  "scene": "s3",
-  "text": "not",
-  "startMs": 52420,
-  "endMs": 52880
- },
- {
-  "scene": "s3",
-  "text": "banks.",
-  "startMs": 52980,
-  "endMs": 53800
- },
- {
-  "scene": "s4",
-  "text": "And",
-  "startMs": 53980,
-  "endMs": 54780
- },
- {
-  "scene": "s4",
-  "text": "the",
-  "startMs": 54860,
-  "endMs": 55120
- },
- {
-  "scene": "s4",
-  "text": "twist:",
-  "startMs": 55140,
-  "endMs": 55560
- },
- {
-  "scene": "s4",
-  "text": "the",
-  "startMs": 55620,
-  "endMs": 55780
- },
- {
-  "scene": "s4",
-  "text": "money",
-  "startMs": 55860,
-  "endMs": 56120
- },
- {
-  "scene": "s4",
-  "text": "doesn’t",
-  "startMs": 56140,
-  "endMs": 56480
- },
- {
-  "scene": "s4",
-  "text": "cross",
-  "startMs": 56500,
-  "endMs": 56760
- },
- {
-  "scene": "s4",
-  "text": "the",
-  "startMs": 56780,
-  "endMs": 56920
- },
- {
-  "scene": "s4",
-  "text": "border.",
-  "startMs": 56940,
-  "endMs": 57320
- },
- {
-  "scene": "s4",
-  "text": "The",
-  "startMs": 57460,
-  "endMs": 57540
- },
- {
-  "scene": "s4",
-  "text": "message",
-  "startMs": 57660,
-  "endMs": 58200
- },
- {
-  "scene": "s4",
-  "text": "does.",
-  "startMs": 58220,
-  "endMs": 59140
- },
- {
-  "scene": "s4",
-  "text": "Casa",
-  "startMs": 59260,
-  "endMs": 59660
- },
- {
-  "scene": "s4",
-  "text": "Bank",
-  "startMs": 59660,
-  "endMs": 59920
- },
- {
-  "scene": "s4",
-  "text": "already",
-  "startMs": 59940,
-  "endMs": 60360
- },
- {
-  "scene": "s4",
-  "text": "keeps",
-  "startMs": 60380,
-  "endMs": 60620
- },
- {
-  "scene": "s4",
-  "text": "euros",
-  "startMs": 60620,
-  "endMs": 61000
- },
- {
-  "scene": "s4",
-  "text": "in",
-  "startMs": 61020,
-  "endMs": 61120
- },
- {
-  "scene": "s4",
-  "text": "an",
-  "startMs": 61140,
-  "endMs": 61240
- },
- {
-  "scene": "s4",
-  "text": "account",
-  "startMs": 61260,
-  "endMs": 61600
- },
- {
-  "scene": "s4",
-  "text": "at",
-  "startMs": 61620,
-  "endMs": 61700
- },
- {
-  "scene": "s4",
-  "text": "Paris",
-  "startMs": 61780,
-  "endMs": 62060
- },
- {
-  "scene": "s4",
-  "text": "Bank,",
-  "startMs": 62140,
-  "endMs": 62400
- },
- {
-  "scene": "s4",
-  "text": "so",
-  "startMs": 62620,
-  "endMs": 62880
- },
- {
-  "scene": "s4",
-  "text": "Paris",
-  "startMs": 62900,
-  "endMs": 63300
- },
- {
-  "scene": "s4",
-  "text": "Bank",
-  "startMs": 63340,
-  "endMs": 63620
- },
- {
-  "scene": "s4",
-  "text": "simply",
-  "startMs": 63700,
-  "endMs": 64220
- },
- {
-  "scene": "s4",
-  "text": "debits",
-  "startMs": 64380,
-  "endMs": 64920
- },
- {
-  "scene": "s4",
-  "text": "it.",
-  "startMs": 64980,
-  "endMs": 65640
- },
- {
-  "scene": "s5",
-  "text": "Paris",
-  "startMs": 65740,
-  "endMs": 66540
- },
- {
-  "scene": "s5",
-  "text": "Bank",
-  "startMs": 66540,
-  "endMs": 66800
- },
- {
-  "scene": "s5",
-  "text": "sends",
-  "startMs": 66820,
-  "endMs": 67040
- },
- {
-  "scene": "s5",
-  "text": "it",
-  "startMs": 67060,
-  "endMs": 67200
- },
- {
-  "scene": "s5",
-  "text": "on",
-  "startMs": 67220,
-  "endMs": 67380
- },
- {
-  "scene": "s5",
-  "text": "to",
-  "startMs": 67380,
-  "endMs": 67540
- },
- {
-  "scene": "s5",
-  "text": "T2,",
-  "startMs": 67540,
-  "endMs": 68000
- },
- {
-  "scene": "s5",
-  "text": "formerly",
-  "startMs": 68420,
-  "endMs": 69240
- },
- {
-  "scene": "s5",
-  "text": "TARGET2,",
-  "startMs": 69340,
-  "endMs": 70320
- },
- {
-  "scene": "s5",
-  "text": "where",
-  "startMs": 70500,
-  "endMs": 70680
- },
- {
-  "scene": "s5",
-  "text": "the",
-  "startMs": 70820,
-  "endMs": 70960
- },
- {
-  "scene": "s5",
-  "text": "money",
-  "startMs": 70980,
-  "endMs": 71240
- },
- {
-  "scene": "s5",
-  "text": "moves",
-  "startMs": 71260,
-  "endMs": 71560
- },
- {
-  "scene": "s5",
-  "text": "from",
-  "startMs": 71580,
-  "endMs": 71740
- },
- {
-  "scene": "s5",
-  "text": "Paris",
-  "startMs": 71740,
-  "endMs": 72000
- },
- {
-  "scene": "s5",
-  "text": "Bank’s",
-  "startMs": 72020,
-  "endMs": 72320
- },
- {
-  "scene": "s5",
-  "text": "account",
-  "startMs": 72340,
-  "endMs": 72700
- },
- {
-  "scene": "s5",
-  "text": "to",
-  "startMs": 72740,
-  "endMs": 72840
- },
- {
-  "scene": "s5",
-  "text": "Frankfurt",
-  "startMs": 72860,
-  "endMs": 73460
- },
- {
-  "scene": "s5",
-  "text": "Bank’s.",
-  "startMs": 73460,
-  "endMs": 74000
- },
- {
-  "scene": "s6",
-  "text": "Frankfurt",
-  "startMs": 74660,
-  "endMs": 75320
- },
- {
-  "scene": "s6",
-  "text": "Bank",
-  "startMs": 75340,
-  "endMs": 75620
- },
- {
-  "scene": "s6",
-  "text": "passes",
-  "startMs": 75660,
-  "endMs": 75860
- },
- {
-  "scene": "s6",
-  "text": "it",
-  "startMs": 75980,
-  "endMs": 76080
- },
- {
-  "scene": "s6",
-  "text": "to",
-  "startMs": 76100,
-  "endMs": 76200
- },
- {
-  "scene": "s6",
-  "text": "Munich",
-  "startMs": 76220,
-  "endMs": 76600
- },
- {
-  "scene": "s6",
-  "text": "Bank,",
-  "startMs": 76620,
-  "endMs": 76740
- },
- {
-  "scene": "s6",
-  "text": "and",
-  "startMs": 77060,
-  "endMs": 77140
- },
- {
-  "scene": "s6",
-  "text": "Lukas",
-  "startMs": 77340,
-  "endMs": 77800
- },
- {
-  "scene": "s6",
-  "text": "is",
-  "startMs": 77820,
-  "endMs": 78040
- },
- {
-  "scene": "s6",
-  "text": "paid.",
-  "startMs": 78060,
-  "endMs": 79180
- },
- {
-  "scene": "s7",
-  "text": "pacs.008:",
-  "startMs": 79580,
-  "endMs": 81240
- },
- {
-  "scene": "s7",
-  "text": "a",
-  "startMs": 81420,
-  "endMs": 81500
- },
- {
-  "scene": "s7",
-  "text": "message",
-  "startMs": 81580,
-  "endMs": 82040
- },
- {
-  "scene": "s7",
-  "text": "between",
-  "startMs": 82060,
-  "endMs": 82340
- },
- {
-  "scene": "s7",
-  "text": "banks",
-  "startMs": 82340,
-  "endMs": 82700
- },
- {
-  "scene": "s7",
-  "text": "carrying",
-  "startMs": 82740,
-  "endMs": 83040
- },
- {
-  "scene": "s7",
-  "text": "a",
-  "startMs": 83060,
-  "endMs": 83200
- },
- {
-  "scene": "s7",
-  "text": "customer’s",
-  "startMs": 83220,
-  "endMs": 83680
- },
- {
-  "scene": "s7",
-  "text": "payment.",
-  "startMs": 83740,
-  "endMs": 84320
- },
- {
-  "scene": "s7",
-  "text": "Four",
-  "startMs": 84500,
-  "endMs": 84880
- },
- {
-  "scene": "s7",
-  "text": "envelopes,",
-  "startMs": 84900,
-  "endMs": 85960
- },
- {
-  "scene": "s7",
-  "text": "one",
-  "startMs": 85980,
-  "endMs": 86320
- },
- {
-  "scene": "s7",
-  "text": "letter.",
-  "startMs": 86340,
-  "endMs": 87320
- },
- {
-  "scene": "s8",
-  "text": "Next:",
-  "startMs": 87540,
-  "endMs": 88180
- },
- {
-  "scene": "s8",
-  "text": "when",
-  "startMs": 88340,
-  "endMs": 88420
- },
- {
-  "scene": "s8",
-  "text": "the",
-  "startMs": 88700,
-  "endMs": 88880
- },
- {
-  "scene": "s8",
-  "text": "money",
-  "startMs": 88900,
-  "endMs": 89260
- },
- {
-  "scene": "s8",
-  "text": "comes",
-  "startMs": 89300,
-  "endMs": 89680
- },
- {
-  "scene": "s8",
-  "text": "back.",
-  "startMs": 89700,
-  "endMs": 90280
- },
- {
-  "scene": "s8",
-  "text": "Follow",
-  "startMs": 90300,
-  "endMs": 90640
- },
- {
-  "scene": "s8",
-  "text": "the",
-  "startMs": 90660,
-  "endMs": 90880
- },
- {
-  "scene": "s8",
-  "text": "series.",
-  "startMs": 90900,
-  "endMs": 91260
- }
+  {
+    "scene": "s0",
+    "text": "You",
+    "startMs": 0,
+    "endMs": 220
+  },
+  {
+    "scene": "s0",
+    "text": "tap",
+    "startMs": 240,
+    "endMs": 680
+  },
+  {
+    "scene": "s0",
+    "text": "“Send”…",
+    "startMs": 680,
+    "endMs": 1160
+  },
+  {
+    "scene": "s0",
+    "text": "and",
+    "startMs": 1280,
+    "endMs": 1400
+  },
+  {
+    "scene": "s0",
+    "text": "your",
+    "startMs": 1560,
+    "endMs": 1820
+  },
+  {
+    "scene": "s0",
+    "text": "money",
+    "startMs": 1840,
+    "endMs": 2140
+  },
+  {
+    "scene": "s0",
+    "text": "goes",
+    "startMs": 2160,
+    "endMs": 2500
+  },
+  {
+    "scene": "s0",
+    "text": "on",
+    "startMs": 2520,
+    "endMs": 2660
+  },
+  {
+    "scene": "s0",
+    "text": "a",
+    "startMs": 2680,
+    "endMs": 2800
+  },
+  {
+    "scene": "s0",
+    "text": "trip",
+    "startMs": 2840,
+    "endMs": 3220
+  },
+  {
+    "scene": "s0",
+    "text": "through",
+    "startMs": 3320,
+    "endMs": 3660
+  },
+  {
+    "scene": "s0",
+    "text": "four",
+    "startMs": 3680,
+    "endMs": 4060
+  },
+  {
+    "scene": "s0",
+    "text": "banks",
+    "startMs": 4080,
+    "endMs": 4480
+  },
+  {
+    "scene": "s0",
+    "text": "and",
+    "startMs": 4720,
+    "endMs": 4880
+  },
+  {
+    "scene": "s0",
+    "text": "a",
+    "startMs": 4880,
+    "endMs": 5020
+  },
+  {
+    "scene": "s0",
+    "text": "central",
+    "startMs": 5040,
+    "endMs": 5540
+  },
+  {
+    "scene": "s0",
+    "text": "bank.",
+    "startMs": 5560,
+    "endMs": 5880
+  },
+  {
+    "scene": "s0",
+    "text": "Let’s",
+    "startMs": 6040,
+    "endMs": 6440
+  },
+  {
+    "scene": "s0",
+    "text": "follow",
+    "startMs": 6480,
+    "endMs": 6860
+  },
+  {
+    "scene": "s0",
+    "text": "it.",
+    "startMs": 6880,
+    "endMs": 7020
+  },
+  {
+    "scene": "s1",
+    "text": "Meet",
+    "startMs": 8000,
+    "endMs": 8440
+  },
+  {
+    "scene": "s1",
+    "text": "Amina.",
+    "startMs": 8480,
+    "endMs": 9180
+  },
+  {
+    "scene": "s1",
+    "text": "She",
+    "startMs": 9200,
+    "endMs": 9280
+  },
+  {
+    "scene": "s1",
+    "text": "runs",
+    "startMs": 9600,
+    "endMs": 9960
+  },
+  {
+    "scene": "s1",
+    "text": "a",
+    "startMs": 9960,
+    "endMs": 10060
+  },
+  {
+    "scene": "s1",
+    "text": "bakery",
+    "startMs": 10080,
+    "endMs": 10460
+  },
+  {
+    "scene": "s1",
+    "text": "in",
+    "startMs": 10480,
+    "endMs": 10580
+  },
+  {
+    "scene": "s1",
+    "text": "Casablanca,",
+    "startMs": 10600,
+    "endMs": 11420
+  },
+  {
+    "scene": "s1",
+    "text": "and",
+    "startMs": 11440,
+    "endMs": 11620
+  },
+  {
+    "scene": "s1",
+    "text": "she",
+    "startMs": 11640,
+    "endMs": 11840
+  },
+  {
+    "scene": "s1",
+    "text": "just",
+    "startMs": 11840,
+    "endMs": 12060
+  },
+  {
+    "scene": "s1",
+    "text": "bought",
+    "startMs": 12080,
+    "endMs": 12340
+  },
+  {
+    "scene": "s1",
+    "text": "a",
+    "startMs": 12360,
+    "endMs": 12460
+  },
+  {
+    "scene": "s1",
+    "text": "new",
+    "startMs": 12480,
+    "endMs": 12700
+  },
+  {
+    "scene": "s1",
+    "text": "oven",
+    "startMs": 12720,
+    "endMs": 13060
+  },
+  {
+    "scene": "s1",
+    "text": "from",
+    "startMs": 13080,
+    "endMs": 13260
+  },
+  {
+    "scene": "s1",
+    "text": "Lukas",
+    "startMs": 13280,
+    "endMs": 13800
+  },
+  {
+    "scene": "s1",
+    "text": "in",
+    "startMs": 13840,
+    "endMs": 14020
+  },
+  {
+    "scene": "s1",
+    "text": "Munich.",
+    "startMs": 14040,
+    "endMs": 14480
+  },
+  {
+    "scene": "s1",
+    "text": "Twelve",
+    "startMs": 14720,
+    "endMs": 15180
+  },
+  {
+    "scene": "s1",
+    "text": "thousand",
+    "startMs": 15200,
+    "endMs": 15740
+  },
+  {
+    "scene": "s1",
+    "text": "euros.",
+    "startMs": 15760,
+    "endMs": 16620
+  },
+  {
+    "scene": "s1",
+    "text": "In",
+    "startMs": 16640,
+    "endMs": 16940
+  },
+  {
+    "scene": "s1",
+    "text": "ISO",
+    "startMs": 16960,
+    "endMs": 17440
+  },
+  {
+    "scene": "s1",
+    "text": "20022,",
+    "startMs": 17440,
+    "endMs": 18860
+  },
+  {
+    "scene": "s1",
+    "text": "Amina",
+    "startMs": 19040,
+    "endMs": 19780
+  },
+  {
+    "scene": "s1",
+    "text": "is",
+    "startMs": 19880,
+    "endMs": 20180
+  },
+  {
+    "scene": "s1",
+    "text": "the",
+    "startMs": 20200,
+    "endMs": 20460
+  },
+  {
+    "scene": "s1",
+    "text": "Debtor,",
+    "startMs": 20480,
+    "endMs": 20980
+  },
+  {
+    "scene": "s1",
+    "text": "and",
+    "startMs": 21240,
+    "endMs": 21540
+  },
+  {
+    "scene": "s1",
+    "text": "Lukas",
+    "startMs": 21560,
+    "endMs": 22040
+  },
+  {
+    "scene": "s1",
+    "text": "is",
+    "startMs": 22080,
+    "endMs": 22220
+  },
+  {
+    "scene": "s1",
+    "text": "the",
+    "startMs": 22240,
+    "endMs": 22360
+  },
+  {
+    "scene": "s1",
+    "text": "Creditor.",
+    "startMs": 22400,
+    "endMs": 23520
+  },
+  {
+    "scene": "s2",
+    "text": "Her",
+    "startMs": 23640,
+    "endMs": 24260
+  },
+  {
+    "scene": "s2",
+    "text": "bank,",
+    "startMs": 24280,
+    "endMs": 24780
+  },
+  {
+    "scene": "s2",
+    "text": "Casa",
+    "startMs": 24880,
+    "endMs": 25340
+  },
+  {
+    "scene": "s2",
+    "text": "Bank,",
+    "startMs": 25360,
+    "endMs": 25720
+  },
+  {
+    "scene": "s2",
+    "text": "is",
+    "startMs": 25760,
+    "endMs": 25940
+  },
+  {
+    "scene": "s2",
+    "text": "in",
+    "startMs": 25960,
+    "endMs": 26120
+  },
+  {
+    "scene": "s2",
+    "text": "Morocco.",
+    "startMs": 26120,
+    "endMs": 26840
+  },
+  {
+    "scene": "s2",
+    "text": "It",
+    "startMs": 26920,
+    "endMs": 27020
+  },
+  {
+    "scene": "s2",
+    "text": "can’t",
+    "startMs": 27200,
+    "endMs": 27540
+  },
+  {
+    "scene": "s2",
+    "text": "access",
+    "startMs": 27560,
+    "endMs": 28040
+  },
+  {
+    "scene": "s2",
+    "text": "Europe’s",
+    "startMs": 28040,
+    "endMs": 28460
+  },
+  {
+    "scene": "s2",
+    "text": "euro",
+    "startMs": 28480,
+    "endMs": 28780
+  },
+  {
+    "scene": "s2",
+    "text": "payment",
+    "startMs": 28800,
+    "endMs": 29140
+  },
+  {
+    "scene": "s2",
+    "text": "system",
+    "startMs": 29160,
+    "endMs": 29600
+  },
+  {
+    "scene": "s2",
+    "text": "directly,",
+    "startMs": 29600,
+    "endMs": 30300
+  },
+  {
+    "scene": "s2",
+    "text": "so",
+    "startMs": 30320,
+    "endMs": 30600
+  },
+  {
+    "scene": "s2",
+    "text": "it",
+    "startMs": 30600,
+    "endMs": 30740
+  },
+  {
+    "scene": "s2",
+    "text": "sends",
+    "startMs": 30760,
+    "endMs": 31120
+  },
+  {
+    "scene": "s2",
+    "text": "the",
+    "startMs": 31120,
+    "endMs": 31220
+  },
+  {
+    "scene": "s2",
+    "text": "payment",
+    "startMs": 31240,
+    "endMs": 31640
+  },
+  {
+    "scene": "s2",
+    "text": "to",
+    "startMs": 31640,
+    "endMs": 31780
+  },
+  {
+    "scene": "s2",
+    "text": "its",
+    "startMs": 31800,
+    "endMs": 31960
+  },
+  {
+    "scene": "s2",
+    "text": "partner",
+    "startMs": 32040,
+    "endMs": 32520
+  },
+  {
+    "scene": "s2",
+    "text": "in",
+    "startMs": 32520,
+    "endMs": 32700
+  },
+  {
+    "scene": "s2",
+    "text": "Europe,",
+    "startMs": 32720,
+    "endMs": 33020
+  },
+  {
+    "scene": "s2",
+    "text": "Paris",
+    "startMs": 33320,
+    "endMs": 33720
+  },
+  {
+    "scene": "s2",
+    "text": "Bank…",
+    "startMs": 33800,
+    "endMs": 34120
+  },
+  {
+    "scene": "s3",
+    "text": "…using",
+    "startMs": 34280,
+    "endMs": 34660
+  },
+  {
+    "scene": "s3",
+    "text": "a",
+    "startMs": 34680,
+    "endMs": 34820
+  },
+  {
+    "scene": "s3",
+    "text": "pacs.008:",
+    "startMs": 34840,
+    "endMs": 36520
+  },
+  {
+    "scene": "s3",
+    "text": "a",
+    "startMs": 36840,
+    "endMs": 37040
+  },
+  {
+    "scene": "s3",
+    "text": "Financial",
+    "startMs": 37120,
+    "endMs": 37780
+  },
+  {
+    "scene": "s3",
+    "text": "Institution",
+    "startMs": 37800,
+    "endMs": 38380
+  },
+  {
+    "scene": "s3",
+    "text": "to",
+    "startMs": 38400,
+    "endMs": 38520
+  },
+  {
+    "scene": "s3",
+    "text": "Financial",
+    "startMs": 38520,
+    "endMs": 39100
+  },
+  {
+    "scene": "s3",
+    "text": "Institution",
+    "startMs": 39120,
+    "endMs": 39740
+  },
+  {
+    "scene": "s3",
+    "text": "Customer",
+    "startMs": 39760,
+    "endMs": 40240
+  },
+  {
+    "scene": "s3",
+    "text": "Credit",
+    "startMs": 40240,
+    "endMs": 40640
+  },
+  {
+    "scene": "s3",
+    "text": "Transfer.",
+    "startMs": 40640,
+    "endMs": 41540
+  },
+  {
+    "scene": "s3",
+    "text": "Picture",
+    "startMs": 41640,
+    "endMs": 42340
+  },
+  {
+    "scene": "s3",
+    "text": "an",
+    "startMs": 42360,
+    "endMs": 42560
+  },
+  {
+    "scene": "s3",
+    "text": "envelope",
+    "startMs": 42560,
+    "endMs": 43060
+  },
+  {
+    "scene": "s3",
+    "text": "with",
+    "startMs": 43280,
+    "endMs": 43420
+  },
+  {
+    "scene": "s3",
+    "text": "a",
+    "startMs": 43440,
+    "endMs": 43580
+  },
+  {
+    "scene": "s3",
+    "text": "letter",
+    "startMs": 43600,
+    "endMs": 43940
+  },
+  {
+    "scene": "s3",
+    "text": "inside.",
+    "startMs": 43960,
+    "endMs": 44420
+  },
+  {
+    "scene": "s3",
+    "text": "The",
+    "startMs": 44560,
+    "endMs": 44640
+  },
+  {
+    "scene": "s3",
+    "text": "envelope",
+    "startMs": 44800,
+    "endMs": 45320
+  },
+  {
+    "scene": "s3",
+    "text": "travels",
+    "startMs": 45400,
+    "endMs": 45860
+  },
+  {
+    "scene": "s3",
+    "text": "between",
+    "startMs": 45880,
+    "endMs": 46180
+  },
+  {
+    "scene": "s3",
+    "text": "banks.",
+    "startMs": 46200,
+    "endMs": 46640
+  },
+  {
+    "scene": "s3",
+    "text": "The",
+    "startMs": 46780,
+    "endMs": 46920
+  },
+  {
+    "scene": "s3",
+    "text": "letter",
+    "startMs": 47100,
+    "endMs": 47520
+  },
+  {
+    "scene": "s3",
+    "text": "is",
+    "startMs": 47540,
+    "endMs": 47660
+  },
+  {
+    "scene": "s3",
+    "text": "the",
+    "startMs": 47700,
+    "endMs": 47900
+  },
+  {
+    "scene": "s3",
+    "text": "customer’s",
+    "startMs": 47900,
+    "endMs": 48440
+  },
+  {
+    "scene": "s3",
+    "text": "payment:",
+    "startMs": 48500,
+    "endMs": 49020
+  },
+  {
+    "scene": "s3",
+    "text": "Amina",
+    "startMs": 49140,
+    "endMs": 49780
+  },
+  {
+    "scene": "s3",
+    "text": "pays",
+    "startMs": 49780,
+    "endMs": 50200
+  },
+  {
+    "scene": "s3",
+    "text": "Lukas.",
+    "startMs": 50220,
+    "endMs": 50600
+  },
+  {
+    "scene": "s3",
+    "text": "Customers,",
+    "startMs": 50940,
+    "endMs": 51880
+  },
+  {
+    "scene": "s3",
+    "text": "not",
+    "startMs": 52420,
+    "endMs": 52880
+  },
+  {
+    "scene": "s3",
+    "text": "banks.",
+    "startMs": 52980,
+    "endMs": 53800
+  },
+  {
+    "scene": "s4",
+    "text": "And",
+    "startMs": 53980,
+    "endMs": 54780
+  },
+  {
+    "scene": "s4",
+    "text": "the",
+    "startMs": 54860,
+    "endMs": 55120
+  },
+  {
+    "scene": "s4",
+    "text": "twist:",
+    "startMs": 55140,
+    "endMs": 55560
+  },
+  {
+    "scene": "s4",
+    "text": "the",
+    "startMs": 55620,
+    "endMs": 55780
+  },
+  {
+    "scene": "s4",
+    "text": "money",
+    "startMs": 55860,
+    "endMs": 56120
+  },
+  {
+    "scene": "s4",
+    "text": "doesn’t",
+    "startMs": 56140,
+    "endMs": 56480
+  },
+  {
+    "scene": "s4",
+    "text": "cross",
+    "startMs": 56500,
+    "endMs": 56760
+  },
+  {
+    "scene": "s4",
+    "text": "the",
+    "startMs": 56780,
+    "endMs": 56920
+  },
+  {
+    "scene": "s4",
+    "text": "border.",
+    "startMs": 56940,
+    "endMs": 57320
+  },
+  {
+    "scene": "s4",
+    "text": "The",
+    "startMs": 57460,
+    "endMs": 57540
+  },
+  {
+    "scene": "s4",
+    "text": "message",
+    "startMs": 57660,
+    "endMs": 58200
+  },
+  {
+    "scene": "s4",
+    "text": "does.",
+    "startMs": 58220,
+    "endMs": 59140
+  },
+  {
+    "scene": "s4",
+    "text": "Casa",
+    "startMs": 59260,
+    "endMs": 59660
+  },
+  {
+    "scene": "s4",
+    "text": "Bank",
+    "startMs": 59660,
+    "endMs": 59920
+  },
+  {
+    "scene": "s4",
+    "text": "already",
+    "startMs": 59940,
+    "endMs": 60360
+  },
+  {
+    "scene": "s4",
+    "text": "keeps",
+    "startMs": 60380,
+    "endMs": 60620
+  },
+  {
+    "scene": "s4",
+    "text": "euros",
+    "startMs": 60620,
+    "endMs": 61000
+  },
+  {
+    "scene": "s4",
+    "text": "in",
+    "startMs": 61020,
+    "endMs": 61120
+  },
+  {
+    "scene": "s4",
+    "text": "an",
+    "startMs": 61140,
+    "endMs": 61240
+  },
+  {
+    "scene": "s4",
+    "text": "account",
+    "startMs": 61260,
+    "endMs": 61600
+  },
+  {
+    "scene": "s4",
+    "text": "at",
+    "startMs": 61620,
+    "endMs": 61700
+  },
+  {
+    "scene": "s4",
+    "text": "Paris",
+    "startMs": 61780,
+    "endMs": 62060
+  },
+  {
+    "scene": "s4",
+    "text": "Bank,",
+    "startMs": 62140,
+    "endMs": 62400
+  },
+  {
+    "scene": "s4",
+    "text": "so",
+    "startMs": 62620,
+    "endMs": 62880
+  },
+  {
+    "scene": "s4",
+    "text": "Paris",
+    "startMs": 62900,
+    "endMs": 63300
+  },
+  {
+    "scene": "s4",
+    "text": "Bank",
+    "startMs": 63340,
+    "endMs": 63620
+  },
+  {
+    "scene": "s4",
+    "text": "simply",
+    "startMs": 63700,
+    "endMs": 64220
+  },
+  {
+    "scene": "s4",
+    "text": "debits",
+    "startMs": 64380,
+    "endMs": 64920
+  },
+  {
+    "scene": "s4",
+    "text": "it.",
+    "startMs": 64980,
+    "endMs": 65640
+  },
+  {
+    "scene": "s5",
+    "text": "Paris",
+    "startMs": 65740,
+    "endMs": 66540
+  },
+  {
+    "scene": "s5",
+    "text": "Bank",
+    "startMs": 66540,
+    "endMs": 66800
+  },
+  {
+    "scene": "s5",
+    "text": "sends",
+    "startMs": 66820,
+    "endMs": 67040
+  },
+  {
+    "scene": "s5",
+    "text": "it",
+    "startMs": 67060,
+    "endMs": 67200
+  },
+  {
+    "scene": "s5",
+    "text": "on",
+    "startMs": 67220,
+    "endMs": 67380
+  },
+  {
+    "scene": "s5",
+    "text": "to",
+    "startMs": 67380,
+    "endMs": 67540
+  },
+  {
+    "scene": "s5",
+    "text": "T2,",
+    "startMs": 67540,
+    "endMs": 68000
+  },
+  {
+    "scene": "s5",
+    "text": "formerly",
+    "startMs": 68420,
+    "endMs": 69240
+  },
+  {
+    "scene": "s5",
+    "text": "TARGET2,",
+    "startMs": 69340,
+    "endMs": 70320
+  },
+  {
+    "scene": "s5",
+    "text": "where",
+    "startMs": 70500,
+    "endMs": 70680
+  },
+  {
+    "scene": "s5",
+    "text": "the",
+    "startMs": 70820,
+    "endMs": 70960
+  },
+  {
+    "scene": "s5",
+    "text": "money",
+    "startMs": 70980,
+    "endMs": 71240
+  },
+  {
+    "scene": "s5",
+    "text": "moves",
+    "startMs": 71260,
+    "endMs": 71560
+  },
+  {
+    "scene": "s5",
+    "text": "from",
+    "startMs": 71580,
+    "endMs": 71740
+  },
+  {
+    "scene": "s5",
+    "text": "Paris",
+    "startMs": 71740,
+    "endMs": 72000
+  },
+  {
+    "scene": "s5",
+    "text": "Bank’s",
+    "startMs": 72020,
+    "endMs": 72320
+  },
+  {
+    "scene": "s5",
+    "text": "account",
+    "startMs": 72340,
+    "endMs": 72700
+  },
+  {
+    "scene": "s5",
+    "text": "to",
+    "startMs": 72740,
+    "endMs": 72840
+  },
+  {
+    "scene": "s5",
+    "text": "Frankfurt",
+    "startMs": 72860,
+    "endMs": 73460
+  },
+  {
+    "scene": "s5",
+    "text": "Bank’s.",
+    "startMs": 73460,
+    "endMs": 74000
+  },
+  {
+    "scene": "s6",
+    "text": "Frankfurt",
+    "startMs": 74660,
+    "endMs": 75320
+  },
+  {
+    "scene": "s6",
+    "text": "Bank",
+    "startMs": 75340,
+    "endMs": 75620
+  },
+  {
+    "scene": "s6",
+    "text": "passes",
+    "startMs": 75660,
+    "endMs": 75860
+  },
+  {
+    "scene": "s6",
+    "text": "it",
+    "startMs": 75980,
+    "endMs": 76080
+  },
+  {
+    "scene": "s6",
+    "text": "to",
+    "startMs": 76100,
+    "endMs": 76200
+  },
+  {
+    "scene": "s6",
+    "text": "Munich",
+    "startMs": 76220,
+    "endMs": 76600
+  },
+  {
+    "scene": "s6",
+    "text": "Bank,",
+    "startMs": 76620,
+    "endMs": 76740
+  },
+  {
+    "scene": "s6",
+    "text": "and",
+    "startMs": 77060,
+    "endMs": 77140
+  },
+  {
+    "scene": "s6",
+    "text": "Lukas",
+    "startMs": 77340,
+    "endMs": 77800
+  },
+  {
+    "scene": "s6",
+    "text": "is",
+    "startMs": 77820,
+    "endMs": 78040
+  },
+  {
+    "scene": "s6",
+    "text": "paid.",
+    "startMs": 78060,
+    "endMs": 79180
+  },
+  {
+    "scene": "s7",
+    "text": "pacs.008:",
+    "startMs": 79580,
+    "endMs": 81240
+  },
+  {
+    "scene": "s7",
+    "text": "a",
+    "startMs": 81420,
+    "endMs": 81500
+  },
+  {
+    "scene": "s7",
+    "text": "message",
+    "startMs": 81580,
+    "endMs": 82040
+  },
+  {
+    "scene": "s7",
+    "text": "between",
+    "startMs": 82060,
+    "endMs": 82340
+  },
+  {
+    "scene": "s7",
+    "text": "banks",
+    "startMs": 82340,
+    "endMs": 82700
+  },
+  {
+    "scene": "s7",
+    "text": "carrying",
+    "startMs": 82740,
+    "endMs": 83040
+  },
+  {
+    "scene": "s7",
+    "text": "a",
+    "startMs": 83060,
+    "endMs": 83200
+  },
+  {
+    "scene": "s7",
+    "text": "customer’s",
+    "startMs": 83220,
+    "endMs": 83680
+  },
+  {
+    "scene": "s7",
+    "text": "payment.",
+    "startMs": 83740,
+    "endMs": 84320
+  },
+  {
+    "scene": "s7",
+    "text": "Four",
+    "startMs": 84500,
+    "endMs": 84880
+  },
+  {
+    "scene": "s7",
+    "text": "envelopes,",
+    "startMs": 84900,
+    "endMs": 85960
+  },
+  {
+    "scene": "s7",
+    "text": "one",
+    "startMs": 85980,
+    "endMs": 86320
+  },
+  {
+    "scene": "s7",
+    "text": "letter.",
+    "startMs": 86340,
+    "endMs": 87320
+  },
+  {
+    "scene": "s8",
+    "text": "Next:",
+    "startMs": 87540,
+    "endMs": 88180
+  },
+  {
+    "scene": "s8",
+    "text": "when",
+    "startMs": 88340,
+    "endMs": 88420
+  },
+  {
+    "scene": "s8",
+    "text": "the",
+    "startMs": 88700,
+    "endMs": 88880
+  },
+  {
+    "scene": "s8",
+    "text": "money",
+    "startMs": 88900,
+    "endMs": 89260
+  },
+  {
+    "scene": "s8",
+    "text": "comes",
+    "startMs": 89300,
+    "endMs": 89680
+  },
+  {
+    "scene": "s8",
+    "text": "back.",
+    "startMs": 89700,
+    "endMs": 90280
+  },
+  {
+    "scene": "s8",
+    "text": "Follow",
+    "startMs": 90300,
+    "endMs": 90640
+  },
+  {
+    "scene": "s8",
+    "text": "the",
+    "startMs": 90660,
+    "endMs": 90880
+  },
+  {
+    "scene": "s8",
+    "text": "series.",
+    "startMs": 90900,
+    "endMs": 91260
+  }
 ]

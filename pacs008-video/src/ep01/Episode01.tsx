@@ -32,9 +32,9 @@ export type EpisodeProps = z.infer<typeof episodeSchema>;
 export const defaultEpisodeProps: EpisodeProps = {
   voiceover: "voiceover/ep01.mp3",
   captions: true,
-  authorName: "Your Name",
-  authorRole: "Payments & ISO 20022",
-  authorPhoto: "",
+  authorName: "HAJAR BEGHJIJ",
+  authorRole: "Creator of ISO 20022 in Real Life",
+  authorPhoto: "author.jpg",
 };
 
 type SceneComponent = React.FC<{ author?: EpisodeProps }>;

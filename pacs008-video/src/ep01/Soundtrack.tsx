@@ -1,7 +1,7 @@
 import React from "react";
 import { Audio } from "@remotion/media";
 import { interpolate, Sequence, staticFile } from "remotion";
-import { SceneId, sceneFrom, TOTAL_FRAMES } from "./timing";
+import { FPS, SceneId, sceneFrom, TOTAL_FRAMES, VOICEOVER } from "./timing";
 import { PRESS, SENT, ZOOM } from "./scenes/S0Hook";
 import { CREDITOR, DEBTOR, INVOICE } from "./scenes/S1MeetAminaLukas";
 import { S2_BARRIER, TAP } from "./scenes/S2Problem";
@@ -38,7 +38,7 @@ const SFX: Cue[] = [
     scene: "s0",
     at: ZOOM,
     file: "whoosh.wav",
-    volume: 0.8,
+    volume: 0.35,
     name: "Whoosh into the tunnel",
   },
   {
@@ -102,7 +102,7 @@ const SFX: Cue[] = [
     scene: "s4",
     at: S4_FLY,
     file: "whoosh.wav",
-    volume: 0.8,
+    volume: 0.3,
     name: "Envelope crosses the sea",
   },
   {
@@ -116,21 +116,21 @@ const SFX: Cue[] = [
     scene: "s5",
     at: S5_STAMP - 1,
     file: "thunk.wav",
-    volume: 0.9,
+    volume: 0.6,
     name: "SETTLED stamp thunk",
   },
   {
     scene: "s5",
     at: S5_RECEIPT + 8,
     file: "ding.wav",
-    volume: 0.4,
+    volume: 0.3,
     name: "Settlement complete ding",
   },
   {
     scene: "s6",
     at: S6_BUZZ,
     file: "notify.wav",
-    volume: 0.6,
+    volume: 0.35,
     name: "Phone notification",
   },
   {
@@ -141,6 +141,23 @@ const SFX: Cue[] = [
     name: "Envelope bounces back",
   },
 ];
+
+// Ducking: while a word is being spoken, sound effects drop by DUCK so they never
+// cover the voice. Effects that land in pauses play at full volume.
+const DUCK = 0.1; // -20 dB
+const DUCK_PAD_MS = 60;
+const speaking = (frame: number) => {
+  const ms = (frame / FPS) * 1000;
+  return VOICEOVER.some(
+    (w) => ms >= w.startMs - DUCK_PAD_MS && ms <= w.endMs + DUCK_PAD_MS,
+  );
+};
+const duck = (frame: number) => {
+  // Soften the edges over ±2 frames so the gain change isn't a click.
+  let sum = 0;
+  for (let d = -2; d <= 2; d++) sum += speaking(frame + d) ? DUCK : 1;
+  return sum / 5;
+};
 
 /** Music bed under the voiceover plus all sound effects. */
 export const Soundtrack: React.FC = () => (
@@ -167,7 +184,10 @@ export const Soundtrack: React.FC = () => (
         from={sceneFrom(s.scene) + s.at}
         layout="none"
       >
-        <Audio src={staticFile(`audio/${s.file}`)} volume={() => s.volume} />
+        <Audio
+          src={staticFile(`audio/${s.file}`)}
+          volume={(f) => s.volume * duck(sceneFrom(s.scene) + s.at + f)}
+        />
       </Sequence>
     ))}
   </>
